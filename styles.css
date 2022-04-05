@@ -367,6 +367,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: darkcyan;
+    text-align: center;
 }
 canvas {
     position: absolute;
@@ -735,6 +736,7 @@ canvas {
 @media all and (max-width: 780px) {
     #mainContent {
         margin-top: 35%;
+        line-height: 3rem;
     }
 
     canvas {
@@ -772,6 +774,7 @@ canvas {
     } */
     .hi{
         display: inline;
+        font-size: 36px;
     }
     .gif{
         width: 700px;
