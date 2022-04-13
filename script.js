@@ -37,7 +37,7 @@ const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d'); //ctx = context
 canvas.width = 450;
 canvas.height = 400;
-console.log(canvas.width);
+// console.log(canvas.width);
 let particleArray = [];
 let adjustX = 28;
 let adjustY = 5;
