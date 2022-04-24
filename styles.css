@@ -952,4 +952,13 @@ canvas {
   #aboutContent {
     height: fit-content;
   }
+  #aboutDetails {
+    padding: 26px;
+  }
+  .letsConnect {
+    text-align: left;
+  }
+  footer {
+    text-align: center;
+  }
 }
