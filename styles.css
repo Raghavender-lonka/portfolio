@@ -236,7 +236,7 @@ li {
 
 .container h1 {
   text-align: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .container a {
@@ -677,6 +677,9 @@ canvas {
     flex-direction: column;
     justify-content: center;
     padding: 0;
+  }
+  .container h1 {
+    margin-bottom: 30px;
   }
   .form-control label {
     position: relative;
