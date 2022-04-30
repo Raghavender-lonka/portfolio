@@ -183,6 +183,23 @@ li {
   content: "Live Preview";
 }
 
+.otherProjects {
+  background-color: #1e2965;
+  text-align: center;
+  padding-top: 1rem;
+  width: 100%;
+  height: fit-content;
+}
+
+.otherProjects p a {
+  color: white;
+}
+
+.otherProjectslink {
+  color: goldenrod;
+  text-decoration: underline;
+}
+
 #resume {
   height: 100vh;
   display: flex;
@@ -796,6 +813,7 @@ canvas {
     position: relative;
     bottom: 4px;
   }
+
   #resume div .title {
     border-bottom: 5px solid orange;
     width: fit-content;
