@@ -222,13 +222,14 @@ li {
   flex-direction: column;
   margin: 20px 0 0 0;
   height: fit-content;
+  gap: 10px;
 }
 .certificatesHead {
   border-bottom: 5px solid orange;
   padding-bottom: 10px;
 }
 .certificates div {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   height: 9vh;
 }
 .linkBtn {
@@ -242,6 +243,11 @@ li {
 #resumeSvg img {
   width: 40vw;
   height: 40vh;
+}
+
+.education {
+  border-bottom: 2px solid goldenrod;
+  width: fit-content;
 }
 
 .container {
@@ -419,28 +425,15 @@ canvas {
   color: #f1f1f1;
 }
 
-/* .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    color: black;
-    padding: 10px 15px;
-    border: none;
-    
-  } */
 #main2 {
   display: none;
   transition: margin-left 0.5s;
   padding: 16px;
-  /* position: absolute;
-        top: 5px;
-        left: 300px; */
 }
 .openNav {
   width: 250px;
 }
-/* .main-full {
-    margin-left: 250px;
-} */
+
 .container2 {
   display: flex;
   width: 80vw;
@@ -821,7 +814,7 @@ canvas {
   }
   #resume {
     height: fit-content;
-    padding: 50px;
+    padding: 40px;
     /* margin: 40px; */
     position: relative;
     bottom: 6px;
@@ -914,7 +907,7 @@ canvas {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   #mainContent {
     margin-top: 35%;
   }
@@ -925,6 +918,9 @@ canvas {
     flex-direction: column;
   }
 
+  .otherProjects {
+    height: 50px;
+  }
   .panel {
     background-size: cover;
     background-position: center;
