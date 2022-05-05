@@ -852,7 +852,7 @@ canvas {
   .form-control label {
     position: relative;
     margin: 0;
-    top: 6px;
+    top: -27px;
   }
   .form-control {
     width: fit-content;
