@@ -107,6 +107,17 @@ button {
 button:hover {
   transform: scale(0.95);
 }
+
+.updatedPortfolio button {
+  background-color: rgb(43, 234, 173);
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+  margin-top: 2%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 #about {
   background-color: #1e2965;
   height: 100vh;
@@ -765,20 +776,15 @@ canvas {
     /* bottom: 500px; */
     /* top: -130px; */
   }
-  /* #mainContent {
-        position: relative;
-        top: 100px
-    } */
+
   .hi {
     display: inline;
   }
   .gif {
     width: 700px;
     height: 400px;
-    /* height: 100%; */
     position: relative;
     right: 80px;
-    /* top: 70px; */
   }
   #hireMe {
     padding: 3vw 5vw;
@@ -794,7 +800,6 @@ canvas {
   }
   .btn-bar {
     position: relative;
-    /* top: 10px; */
   }
   #about {
     position: relative;
@@ -971,6 +976,14 @@ canvas {
   .prev,
   .next {
     top: 55%;
+  }
+  .updatedPortfolio button {
+    width: 80%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: 600;
   }
   #aboutContent {
     height: fit-content;
